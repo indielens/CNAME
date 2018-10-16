@@ -4,7 +4,7 @@ body {
 }
 
 nav {
-  grid-column: 2 / 14;
+  grid-column: 2 / 13;
 }
 
 nav ul, footer ul {
