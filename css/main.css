@@ -1,10 +1,10 @@
 body {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: 30px repeat(12, 1fr) 30px ;
 }
 
 nav {
-  grid-column: 1 / 12;
+  grid-column: 2 / 14;
 }
 
 nav ul, footer ul {
