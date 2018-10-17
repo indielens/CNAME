@@ -3,6 +3,8 @@ body {
   grid-template-columns: 30px repeat(12, 1fr) 30px ;
 }
 
+/*-----Nav-----------------------------------------------------*/
+
 nav {
   grid-column: 2 / 13;
 }
@@ -18,14 +20,7 @@ nav ul li, footer ul li {
     display: inline;
 }
 
-a {
-    text-decoration: none;
-    color: #999;
-}
-
-a:hover {
-    text-decoration: underline;
-}
+/*-----Tyopgraphy-----------------------------------------------------*/
 
 h1 {
     font-size: 3em;
@@ -37,6 +32,17 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*-----Footer-----------------------------------------------------*/
 
 footer {
     border-top: 1px solid #d5d5d5;
