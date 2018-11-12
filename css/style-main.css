@@ -49,6 +49,10 @@ textarea {
 	line-height: 1.5;
 }
 
+.socialicon {
+  height: 1em;
+}
+
 /* Global layouts */
 @media screen and (min-width: 700px) {
     .two-column {
