@@ -143,8 +143,7 @@ General styling
 
 .page-title,
 .main-content,
-.sidebar,
-.footer-content {
+.sidebar {
     padding: 1em;
     color: white;
 }
