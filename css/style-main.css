@@ -54,11 +54,19 @@ textarea {
   width: 1em;
 }
 
-a svg:hover { 
-  fill: #fff;
+a svg:hover #linkedin,
+a svg:hover #dribbble,
+a svg:hover #twitter,
+a svg:hover #gmail,
+a svg:hover #instagram {
+  fill: #111;
 }
 
-a svg {
+a svg #linkedin,
+a svg #dribbble,
+a svg #twitter,
+a svg #gmail,
+a svg #instagram {
   transition: 200ms;
   transition-timing-function: ease-in-out;
   -webkit-transition: 200ms;
