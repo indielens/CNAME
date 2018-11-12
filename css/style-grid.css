@@ -21,7 +21,7 @@
 }
 
 .navigation {
-	grid-area: masthead;
+	grid-area: navigation;
 }
 
 .page-title {
