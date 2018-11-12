@@ -91,7 +91,7 @@ a svg:hover #dribbble,
 a svg:hover #twitter,
 a svg:hover #gmail,
 a svg:hover #instagram {
-  fill: #fff;
+  fill: #EE6C4D;
 }
 
 a svg #linkedin,
@@ -164,10 +164,6 @@ General styling
     background-color: #EE6C4D;
 }
 
-.footer-content {
-    color: white;
-}
-
 .footer-content ul {
     background-color: #293241;
     display: flex;
@@ -178,4 +174,5 @@ General styling
 
 .footer-content ul li {
   padding: 1em .5em;
+  color: white;
 }
