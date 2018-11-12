@@ -171,3 +171,7 @@ General styling
     flex-direction: row;
     justify-content: center;
 }
+
+.footer-content ul li {
+  padding: 1em;
+}
