@@ -9,7 +9,7 @@
 		"footer footer";
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 600px) {
 	.site {
 		grid-template-columns: 2fr 1fr 1fr;
 		grid-template-areas:
