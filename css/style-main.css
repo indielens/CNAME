@@ -75,7 +75,10 @@ nav ul li a:hover {
 }
 
 footer ul li {
-  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .socialicon {
