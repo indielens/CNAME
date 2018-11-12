@@ -3,8 +3,8 @@
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: auto 1fr 3fr;
 	grid-template-areas:
-		"title title"
-		"main masthead"
+		"navigation navigation"
+		"main title"
 		"main sidebar"
 		"footer footer";
 }
@@ -13,14 +13,14 @@
 	.site {
 		grid-template-columns: 2fr 1fr 1fr;
 		grid-template-areas:
-			"title title title"
-			"main masthead masthead"
+			"navigation navigation navigation"
+			"main title title"
 			"main sidebar sidebar"
       "footer footer footer";
 	}
 }
 
-.masthead {
+.navigation {
 	grid-area: masthead;
 }
 
