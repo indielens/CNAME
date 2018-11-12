@@ -49,6 +49,10 @@ textarea {
 	line-height: 1.5;
 }
 
+footer ul li {
+  list-style: none;
+}
+
 .socialicon {
   height: 1.5em;
   width: 1.5em;
