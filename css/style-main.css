@@ -145,7 +145,7 @@ General styling
 .main-content,
 .sidebar {
     padding: 1em;
-
+    color: white;
 }
 
 .masthead {
