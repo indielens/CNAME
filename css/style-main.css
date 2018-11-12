@@ -169,10 +169,13 @@ General styling
     display: flex;
     flex-direction: row;
     justify-content: center;
-    list-style-type: none;
 }
 
 .footer-content ul li {
   padding: 1em .5em;
   color: white;
+}
+
+.footer-content {
+  list-style-type: none;
 }
