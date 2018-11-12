@@ -145,7 +145,7 @@ General styling
 .main-content,
 .sidebar {
     padding: 1em;
-    color: white;
+
 }
 
 .masthead {
@@ -164,11 +164,16 @@ General styling
     background-color: #EE6C4D;
 }
 
+.footer-content {
+    color: white;
+}
+
 .footer-content ul {
     background-color: #293241;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    list-style-type: none;
 }
 
 .footer-content ul li {
