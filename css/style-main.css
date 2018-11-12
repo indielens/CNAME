@@ -71,9 +71,9 @@ a svg #dribbble,
 a svg #twitter,
 a svg #gmail,
 a svg #instagram {
-  transition: 400ms;
+  transition: 200ms;
   transition-timing-function: ease-in-out;
-  -webkit-transition: 400ms;
+  -webkit-transition: 200ms;
   -webkit-transition-timing-function: ease-in-out;
 }
 
