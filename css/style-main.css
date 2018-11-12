@@ -141,14 +141,14 @@ General styling
 	margin: 1em;
 }
 
-.masthead,
+/*.masthead,
 .page-title,
 .main-content,
 .sidebar,
 .footer-content {
     padding: 1em;
     color: white;
-}
+}*/
 
 .masthead {
     background-color: #E0FBFC;
