@@ -15,7 +15,8 @@
 		grid-template-areas:
 			"title title title"
 			"main masthead masthead"
-			"main sidebar footer";
+			"main sidebar sidebar"
+      "footer footer footer";
 	}
 }
 
