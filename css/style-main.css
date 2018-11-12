@@ -167,4 +167,6 @@ General styling
 
 .footer-content {
     background-color: #293241;
+    display: flex;
+    justify-content: center;
 }
