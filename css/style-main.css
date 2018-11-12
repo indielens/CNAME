@@ -86,6 +86,10 @@ footer ul li {
   width: 1.5em;
 }
 
+a svg {
+  color: white;
+}
+
 a svg:hover #linkedin,
 a svg:hover #dribbble,
 a svg:hover #twitter,
@@ -148,9 +152,10 @@ General styling
     color: white;
 }
 
-.masthead {
+.navigation {
     background-color: #E0FBFC;
 }
+
 
 .page-title {
     background-color: #98C1D9;
@@ -173,7 +178,6 @@ General styling
 
 .footer-content ul li {
   padding: 1em .5em;
-  color: white;
 }
 
 .footer-content ul {
