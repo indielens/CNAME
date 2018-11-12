@@ -54,11 +54,7 @@ textarea {
   width: 1em;
 }
 
-a svg:hover #linkedin,
-a svg:hover #dribbble,
-a svg:hover #twitter,
-a svg:hover #gmail,
-a svg:hover #instagram {
+a svg:hover #linkedin a svg:hover #dribbble, a svg:hover #twitter, a svg:hover #gmail, a svg:hover #instagram {
   fill: #fff;
 }
 
