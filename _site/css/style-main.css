@@ -1,0 +1,185 @@
+/*--------------------------------------------------------------
+Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar */
+}
+
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+
+body {
+	margin: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family:'Merriweather','Helvetica', 'Arial', 'Sans-Serif';
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav ul li a:hover {
+    background-color: #111;
+}
+
+footer ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.socialicon {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+a svg {
+  fill: white;
+}
+
+a svg:hover #linkedin,
+a svg:hover #dribbble,
+a svg:hover #twitter,
+a svg:hover #gmail,
+a svg:hover #instagram {
+  fill: #EE6C4D;
+}
+
+a svg #linkedin,
+a svg #dribbble,
+a svg #twitter,
+a svg #gmail,
+a svg #instagram {
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+/* Global layouts */
+@media screen and (min-width: 600px) {
+    .two-column {
+        column-count: 2;
+        column-gap: 2.4em;
+    }
+}
+
+/* Global buttons */
+.content-button {
+	padding: .5em 1em;
+	border: 3px solid #B51C35;
+	/*border-radius: 10px;*/
+	font-weight: 600;
+}
+
+a.content-button {
+	color: black;
+	text-decoration: none;
+}
+
+a.content-button:focus,
+a.content-button:hover {
+	background: #B51C35;
+	color: #FFFCED;
+}
+
+
+/*--------------------------------------------------------------
+General styling
+--------------------------------------------------------------*/
+
+.site {
+	margin: 1em;
+}
+
+.page-title,
+.main-content,
+.sidebar {
+    padding: 1em;
+    color: white;
+}
+
+.navigation {
+    background-color: #E0FBFC;
+}
+
+
+.page-title {
+    background-color: #98C1D9;
+}
+
+.main-content {
+    background-color: #3D5A80;
+}
+
+.sidebar {
+    background-color: #EE6C4D;
+}
+
+.footer-content ul {
+    background-color: #293241;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-content ul li {
+  padding: 1em .5em;
+}
+
+.footer-content ul {
+  margin: 0;
+}
