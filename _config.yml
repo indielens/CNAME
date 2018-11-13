@@ -1,2 +1,3 @@
 collections:
-  - portfolio
+  portfolio:
+    output: true
