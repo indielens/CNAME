@@ -140,6 +140,10 @@ General styling
 /*--------------------------------------------------------------
 General styling
 --------------------------------------------------------------*/
+.hero-content {
+	display: grid;
+}
+
 .profileImage {
 	background-image: url("/assets/grantThomasPortrait.png");
 	background-color: #cccccc;
