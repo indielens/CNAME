@@ -3,7 +3,7 @@
 	grid-template-columns: repeat(4, 1fr);
 	grid-column-gap: 1em;
 	grid-template-rows: auto;
-	background-color: #222555;
+	/*background-color: #222555;*/
 }
 
 @media screen and (min-width: 360px) {
@@ -11,7 +11,7 @@
 		grid-template-columns: repeat(8, 1fr);
 		grid-column-gap: 1.5em;
 		margin: 0 2em;
-		background-color: #222;
+		/*background-color: #222;*/
 	}
 }
 
@@ -19,6 +19,6 @@
 	.site {
 		grid-template-columns: repeat(12, 1fr);
 		margin: 0 4em;
-		background-color: #fff555;
+		/*background-color: #fff555;*/
 	}
 }
