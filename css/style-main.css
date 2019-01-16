@@ -154,13 +154,13 @@ General styling
 
 @media screen and (min-width: 360px) {
 	.profileImage {
-		grid-column: 2/6;
+		grid-column: 2/7;
 	}
 }
 
 @media screen and (min-width: 600px) {
 	.profileImage {
-		grid-column: 2/6;
+		grid-column: 1/6;
 	}
 }
 
