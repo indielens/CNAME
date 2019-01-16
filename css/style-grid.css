@@ -6,19 +6,19 @@
 	background-color: #222555;
 }
 
-@media screen and (min-width: 600px) {
-	.site {
-		grid-template-columns: repeat(12, 1fr);
-		margin: 0 4em;
-		background-color: #fff555;
-	}
-}
-
 @media screen and (min-width: 360px) {
 	.site {
 		grid-template-columns: repeat(8, 1fr);
 		grid-column-gap: 1.5em;
 		margin: 0 2em;
 		background-color: #222;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.site {
+		grid-template-columns: repeat(12, 1fr);
+		margin: 0 4em;
+		background-color: #fff555;
 	}
 }
