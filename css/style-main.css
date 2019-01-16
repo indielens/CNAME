@@ -104,7 +104,6 @@ General styling
 --------------------------------------------------------------*/
 
 .navigation {
-    background-color: #E0FBFC;
 		grid-column: 1/13;
 		grid-row: 1/2;
 }
