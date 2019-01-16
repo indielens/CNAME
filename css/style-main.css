@@ -109,10 +109,6 @@ General styling
 		grid-row: 1/2;
 }
 
-.page-title {
-    background-color: #98C1D9;
-}
-
 .sidebar {
     background-color: #EE6C4D;
 }
@@ -161,6 +157,23 @@ General styling
 @media screen and (min-width: 600px) {
 	.profileImage {
 		grid-column: 1/6;
+	}
+}
+
+.introduction {
+	grid-column-start: 1;
+	grid-row: 2/3;
+}
+
+@media screen and (min-width: 360px) {
+	.introduction {
+		grid-column-start: 2;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.introduction {
+		grid-column-start: 3;
 	}
 }
 
