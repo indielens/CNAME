@@ -1,6 +1,7 @@
 .site {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
+	grid-column-gap: 1.5em;
 	grid-template-rows: auto;
 }
 
@@ -13,5 +14,6 @@
 @media screen and (min-width: 360px) {
 	.site {
 		grid-template-columns: repeat(4, 1fr);
+		grid-column-gap: 1em;
 	}
 }
