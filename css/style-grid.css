@@ -11,31 +11,6 @@
 
 @media screen and (min-width: 600px) {
 	.site {
-		grid-template-columns: 2fr 1fr 1fr;
-		grid-template-areas:
-			"navigation navigation navigation"
-			"main title title"
-			"main sidebar sidebar"
-      "footer footer footer";
+		grid-template-columns: repeat(8, 1fr);
 	}
-}
-
-.navigation {
-	grid-area: navigation;
-}
-
-.page-title {
-	grid-area: title;
-}
-
-.main-content {
-	grid-area: main;
-}
-
-.sidebar {
-	grid-area: sidebar;
-}
-
-.footer-content {
-	grid-area: footer;
 }
