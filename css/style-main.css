@@ -183,3 +183,10 @@ General styling
 .footer-content ul {
   margin: 0;
 }
+
+/*--------------------------------------------------------------
+General styling
+--------------------------------------------------------------*/
+.profileImage {
+	background-color: #222;
+}
