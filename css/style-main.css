@@ -125,7 +125,7 @@ General styling
     background-color: #EE6C4D;
 }
 
-.footet-content {
+.footer-content {
 	grid-column: 1/13;
 	grid-row: auto;
 }
