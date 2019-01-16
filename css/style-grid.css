@@ -2,15 +2,16 @@
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: auto;
-	grid-template-areas:
-    "navigation navigation"
-		"main title"
-		"main sidebar"
-		"footer footer";
 }
 
 @media screen and (min-width: 600px) {
 	.site {
 		grid-template-columns: repeat(8, 1fr);
+	}
+}
+
+@media screen and (min-width: 360px) {
+	.site {
+		grid-template-columns: repeat(4, 1fr);
 	}
 }
