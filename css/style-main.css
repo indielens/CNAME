@@ -127,6 +127,7 @@ General styling
 
 .footet-content {
 	grid-column: 1/13;
+	grid-row: auto;
 }
 
 .footer-content ul {
