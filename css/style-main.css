@@ -107,19 +107,11 @@ General styling
 	margin: 0 1em;
 }
 
-.page-title,
-.main-content,
-.sidebar {
-    padding: 1em;
-    color: white;
-}
-
 .navigation {
     background-color: #E0FBFC;
-		grid-column: 0/13;
-		grid-row: 0/1;
+		grid-column: 1/13;
+		grid-row: 1/2;
 }
-
 
 .page-title {
     background-color: #98C1D9;
