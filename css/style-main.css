@@ -117,6 +117,7 @@ General styling
 .navigation {
     background-color: #E0FBFC;
 		grid-column: 0/13;
+		grid-row: 0/1;
 }
 
 
