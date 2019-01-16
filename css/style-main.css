@@ -110,12 +110,7 @@ a svg #instagram {
 }
 
 /* Global layouts */
-@media screen and (min-width: 600px) {
-    .two-column {
-        column-count: 2;
-        column-gap: 2.4em;
-    }
-}
+
 
 /* Global buttons */
 .content-button {
@@ -154,6 +149,7 @@ General styling
 
 .navigation {
     background-color: #E0FBFC;
+		grid-column: 0/13;
 }
 
 
