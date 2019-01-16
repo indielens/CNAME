@@ -140,9 +140,6 @@ General styling
 /*--------------------------------------------------------------
 General styling
 --------------------------------------------------------------*/
-.hero-content {
-	display: grid;
-}
 
 .profileImage {
 	background-image: url("/assets/grantThomasPortrait.png");
@@ -151,7 +148,19 @@ General styling
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-	grid-column: 2/6;
+	grid-column: 1/5;
+}
+
+@media screen and (min-width: 360px) {
+	.profileImage {
+		grid-column: 2/6;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.profileImage {
+		grid-column: 2/6;
+	}
 }
 
 /*--------------------------------------------------------------
